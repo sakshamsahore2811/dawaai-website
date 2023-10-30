@@ -128,7 +128,7 @@
     width: 500px;
     margin-top: 3rem;
     border-radius: 15px;
-    border: 4px solid #101010;
+    border: 4px solid #7F82FF;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -162,6 +162,40 @@
     padding: 0.5rem;
     margin-left: 10.5rem;
     margin-top: 0.5rem;
+}
+
+.txt{
+    /* We are a dedicated team consisting of graduates from IITs */
+
+position: absolute;
+width: 638.94px;
+height: 23px;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #7B8292;
+
+
+}
+
+.imagedawa{
+position: relative;
+margin-left: 77.18px;
+margin-top: 85.46px;
+
+border-radius: 15px;
+
+}
+
+.cardsall{
+    position:relative;
+    margin-top:85.46px;
 }
 
 @media screen and (max-width:768px) {
@@ -205,7 +239,7 @@
         object-fit: cover;
         width: 274px;
         height: 46px;
-        margin-top: 1rem;
+        margin-top: 85.46px;
         margin-bottom: 3rem;
         border-radius: 15px;
         border: 3px solid #101010;

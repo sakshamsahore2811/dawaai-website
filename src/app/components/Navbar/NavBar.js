@@ -45,18 +45,18 @@ const NavBar = () => {
 
         <div>
           <ul className={styles.unorderedlist}>
-            <li className={styles.listitem}><Link href='#'>Home</Link></li>
-            <li className={styles.listitem}><Link href='#'>About Us</Link></li>
-            <li className={styles.listitem}><Link href='#'>Offering</Link></li>
-            <li className={styles.listitem}><Link href='#'>Contact Us</Link></li>
+            <li className={styles.listitem}><Link href='/'>Home</Link></li>
+            <li className={styles.listitem}><Link href='#whydawa'>About Us</Link></li>
+            <li className={styles.listitem}><Link href='#offering'>Offerings</Link></li>
+            <li className={styles.listitem}><Link href='#contact'>Contact Us</Link></li>
             <li className={styles.listitem}>  <button><Link href="http://app.dawaai.co.in/"> Log In </Link> </button></li>
-            <li className={styles.listitem}> <button> <Link href="http://app.dawaai.co.in/"> Sign In</Link>  </button>    </li>
+            <li className={styles.listitem}> <button> <Link href="http://app.dawaai.co.in/"> Sign Up</Link>  </button>    </li>
           </ul>
         </div>
       </div>
       <h6>Our Partnership, <br /> Your Benefits</h6>
       <p className={styles.next}>Next Gen B2B SaaS platform for health care <br /> professionals created by IITians & IIM's</p>
-      <button className={styles.join}><Link href="#"> Join Us</Link></button>
+      <button className={styles.join}><Link href="http://app.dawaai.co.in/"> Join Us</Link></button>
     </div>
   );
 };

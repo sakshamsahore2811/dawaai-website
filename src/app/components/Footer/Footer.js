@@ -5,10 +5,6 @@ import facebook from "../../../../public/images/facebook.png";
 import instagram from "../../../../public/images/instagram.png";
 import twitter from "../../../../public/images/twitter.png";
 import linkedin from "../../../../public/images/linkedin.png";
-import facebook3 from "../../../../public/images/facebook3.png";
-import instagram3 from "../../../../public/images/instagram3.png";
-import twitter3 from "../../../../public/images/twitter3.png";
-import linkedin3 from "../../../../public/images/linkedin3.png";
 
 const Footer = () => {
   return (
@@ -24,10 +20,10 @@ const Footer = () => {
 
       <div>
         <ul>
-          <li><a href="#"><Image src={twitter3} /></a></li>
-          <li><a href="#"><Image src={facebook3} /></a></li>
-          <li><a href="#"><Image src={instagram3} /></a></li>
-          <li><a href="#"><Image src={linkedin3} /></a></li>
+          <li><a href="#"><Image src={twitter} /></a></li>
+          <li><a href="#"><Image src={facebook} /></a></li>
+          <li><a href="#"><Image src={instagram} /></a></li>
+          <li><a href="#"><Image src={linkedin} /></a></li>
 
         </ul>
       </div>

@@ -64,7 +64,7 @@ const Offering = () => {
         // </div>
 
 
-        <div className={styles.container}>
+        <div className={styles.container} id="offering">
             <h1>OFFERINGS</h1>
 
             <div className={styles.card}>
@@ -75,7 +75,7 @@ const Offering = () => {
                 </div>
                 <div className={styles.cards}>
                     <Image  style={{height:"80%", objectFit:"contain"}} src={mobile} />
-                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"3vh"}}>Mobile Applications</p>
+                    <p style={{ fontFamily: 'Poppins',fontWeight: 600, fontSize:"3vh"}}>Mobile Application</p>
                 </div>
             </div>
             <Image className={styles.tree} src={tree}  />

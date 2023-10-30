@@ -10,6 +10,9 @@ import Image from 'next/image';
 import calls from "../../../../public/images/calls.png";
 import map from "../../../../public/images/map.png";
 import mail from "../../../../public/images/mail.png";
+import location1 from"../../../../public/images/location-1.png"
+import msg from "../../../../public/images/msg.png"
+import phone from "../../../../public/images/phone.png"
 
 
 
@@ -17,26 +20,26 @@ import mail from "../../../../public/images/mail.png";
 
 const Contact = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="contact">
             <h1>CONTACT US</h1>
             <div className={styles.main}>
                 <div className={styles.contact}>
                     <div>
-                        <Image src={map} alt='img' />  <span>Location</span>
+                        <Image src={location1} alt='img' />  <span>Location</span>
                         <p>
                             203/A1 Rukhmini Apt., Friends Colony. Katal Road Nagpur, <br />
                             Maharashtra
                         </p>
                     </div>
                     <div>
-                        <Image src={mail} alt='img' />
+                        <Image src={msg} alt='img' />
                         <span>Email</span>
                         <p>
                             kushal@dawaai.co.in
                         </p>
                     </div>
                     <div>
-                        <Image src={calls} alt='img' />
+                        <Image src={phone} alt='img' />
                         <span>Call</span>
                         <p>
                             +91 7770071144
@@ -50,13 +53,15 @@ const Contact = () => {
 
                 <div className={styles.left_contact}>
                     <div className={styles.label}>
-                        <div>
                             <p>Your Name</p>
+                            <div className={styles.nameinput}>
                             <input type="text" />
-                        </div>
+                            </div>
                         <div>
                             <p>Your Email</p>
+                            <div className={styles.emailinput}>
                             <input type="text" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.subject}>
